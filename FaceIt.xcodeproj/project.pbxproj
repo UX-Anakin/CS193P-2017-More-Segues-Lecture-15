@@ -13,6 +13,7 @@
 		EA15B23F1E649FB500A6129A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA15B23E1E649FB500A6129A /* Assets.xcassets */; };
 		EA15B2421E649FB500A6129A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA15B2401E649FB500A6129A /* LaunchScreen.storyboard */; };
 		EA15B24B1E64A05900A6129A /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA15B24A1E64A05900A6129A /* FaceView.swift */; };
+		EA4128691EA64CC5003E7D0C /* ExpressionEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4128681EA64CC5003E7D0C /* ExpressionEditorViewController.swift */; };
 		EA53E7801E9D69EE00515B72 /* EyeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA53E77F1E9D69EE00515B72 /* EyeView.swift */; };
 		EA76AD3E1E66105000C20997 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA76AD3D1E66105000C20997 /* FacialExpression.swift */; };
 		EA95F38A1E6CAE15001ED272 /* EmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA95F3891E6CAE15001ED272 /* EmotionsViewController.swift */; };
@@ -29,6 +30,7 @@
 		EA15B2411E649FB500A6129A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA15B2431E649FB500A6129A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA15B24A1E64A05900A6129A /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		EA4128681EA64CC5003E7D0C /* ExpressionEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressionEditorViewController.swift; sourceTree = "<group>"; };
 		EA53E77F1E9D69EE00515B72 /* EyeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyeView.swift; sourceTree = "<group>"; };
 		EA76AD3D1E66105000C20997 /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 		EA95F3891E6CAE15001ED272 /* EmotionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionsViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			children = (
 				EA15B2491E64A01000A6129A /* Supporting Files */,
 				EA15B23B1E649FB500A6129A /* Main.storyboard */,
+				EA4128681EA64CC5003E7D0C /* ExpressionEditorViewController.swift */,
 				EA95F3891E6CAE15001ED272 /* EmotionsViewController.swift */,
 				EA15B2391E649FB500A6129A /* FaceViewController.swift */,
 				EAE2361B1E9BC97B00628E6B /* BlinkingFaceViewController.swift */,
@@ -169,6 +172,7 @@
 				EA95F38A1E6CAE15001ED272 /* EmotionsViewController.swift in Sources */,
 				EAE2361C1E9BC97B00628E6B /* BlinkingFaceViewController.swift in Sources */,
 				EA15B2381E649FB500A6129A /* AppDelegate.swift in Sources */,
+				EA4128691EA64CC5003E7D0C /* ExpressionEditorViewController.swift in Sources */,
 				EA53E7801E9D69EE00515B72 /* EyeView.swift in Sources */,
 				EA15B24B1E64A05900A6129A /* FaceView.swift in Sources */,
 			);
