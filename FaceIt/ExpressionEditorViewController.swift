@@ -37,6 +37,7 @@ class ExpressionEditorViewController: UITableViewController, UITextFieldDelegate
 		{
 			navigationItem.leftBarButtonItem = nil
 		}
+        // poper size
 		var size = tableView.minimumSize(forSection: 0)
 		size.height -= tableView.heightForRow(at: IndexPath(row: 1, section: 0))
 		size.height += size.width
@@ -51,7 +52,8 @@ class ExpressionEditorViewController: UITableViewController, UITextFieldDelegate
 	}
 	
 	@IBAction func updateFace()
-	{	faceViewController?.expression = expression
+	{
+        faceViewController?.expression = expression
 	}
 	
 	override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -68,7 +70,8 @@ class ExpressionEditorViewController: UITableViewController, UITextFieldDelegate
 	}
 	
 	@IBAction func cancel(_ sender: UIBarButtonItem)
-	{	presentingViewController?.dismiss(animated: true)
+	{
+        presentingViewController?.dismiss(animated: true)
 	}
 
 }

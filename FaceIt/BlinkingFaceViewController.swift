@@ -30,7 +30,8 @@ class BlinkingFaceViewController: FaceViewController
 	private var inABlink = false // 'in a blink... we don't want to initiate 2 timers
 	
 	private func blinkIfNeeded()
-	{	if blinking && canBlink && !inABlink {
+	{
+        if blinking && canBlink && !inABlink {
 			faceView.eyesOpen = false
 			inABlink = true
 			Timer.scheduledTimer(withTimeInterval: BlinkRate.closedDuration, repeats: false) { [weak self] timer in
